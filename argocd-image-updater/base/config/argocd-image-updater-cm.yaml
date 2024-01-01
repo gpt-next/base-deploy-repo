@@ -13,4 +13,4 @@ data:
       ping: no
       prefix: ghcr.io
       credentials: pullsecret:argocd/docker-pull-secret
-      tagsortmode: latest_first
+      tagsortmode: latest-first
