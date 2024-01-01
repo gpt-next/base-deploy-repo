@@ -8,7 +8,9 @@ metadata:
 data:
   registries.conf: |
     registries:
-    - name: GitHub
+    - name: GitHub Container Registry
       prefix: ghcr.io
-      api_url: https://ghcr.io
+      api_url: https://docker.pkg.github.com
+      ping: no
+      tagsortmode: latest-last
       credentials: pullsecret:argocd/docker-pull-secret
