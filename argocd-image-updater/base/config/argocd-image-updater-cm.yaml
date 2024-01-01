@@ -5,3 +5,10 @@ metadata:
   labels:
     app.kubernetes.io/name: argocd-image-updater-config
     app.kubernetes.io/part-of: argocd-image-updater
+data:
+  registries.conf: |
+    registries:
+    - name: GitHub
+      prefix: ghcr.io
+      api_url: https://ghcr.io
+      credentials: pullsecret:argocd/docker-pull-secret
