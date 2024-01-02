@@ -6,3 +6,4 @@ resources:
   - argocd-image-updater-secret.yaml
   - argocd-image-updater-ssh-config.yaml
   - docker-pull-secret.yaml
+  - github-update-secret.yaml
