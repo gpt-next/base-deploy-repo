@@ -13,4 +13,3 @@ data:
       credentials: pullsecret:argocd/docker-pull-secret
       api_url: https://docker.pkg.github.com
       ping: no
-      tagsortmode: latest-last
